@@ -1,3 +1,4 @@
+import { withAuthenticator } from '@aws-amplify/ui-react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import ScheduleMessageForm from '../components/ScheduleMessageForm'
@@ -20,4 +21,4 @@ const ScheduleMessagePage = () => {
 	)
 }
 
-export default ScheduleMessagePage
+export default withAuthenticator(ScheduleMessagePage)
