@@ -21,7 +21,7 @@ const ScheduleMessageForm = () => {
 			/>
 			<input required type="hidden" name="timezone" value={userTimeZone} />
 
-			<div>
+			<div className="mt-4">
 				<button className={`btn btn-secondary`} type="submit">
 					Submit
 				</button>

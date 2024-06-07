@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom'
 
-import React from 'react'
-
 function Hero() {
 	return (
 		<div className="hero min-h-screen">
@@ -18,7 +16,7 @@ function Hero() {
 						>
 							DaisyUI
 						</a>{' '}
-						for the cool SVG&apos;s,{' '}
+						for styling,{' '}
 						<a
 							className=" text-pink-600 hover:text-pink-400"
 							href="https://aws.amazon.com/blogs/compute/introducing-amazon-eventbridge-scheduler/"
@@ -27,7 +25,7 @@ function Hero() {
 						>
 							Amazon EventBridge Scheduler
 						</a>{' '}
-						to future dated the messages,{' '}
+						to future date the messages,{' '}
 						<a
 							className=" text-blue-600 hover:text-blue-400"
 							href="https://nextjs.org/"

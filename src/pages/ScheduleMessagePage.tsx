@@ -9,7 +9,7 @@ const ScheduleMessagePage = () => {
 			<Navbar />
 			<main className="flex-1">
 				<h1 className="text-2xl text-center">Schedule Message</h1>
-				<p className="text-center">
+				<p className="text-center mb-8">
 					Messages will be sent based on your browsers current timezone.
 				</p>
 				<div className="flex justify-center">
